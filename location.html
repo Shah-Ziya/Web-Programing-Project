@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ironform Gym – Location</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="logo">IRON<span>FORM</span></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="history.html">Our Story</a>
+    <a href="menu.html">Classes</a>
+    <a href="location.html" class="active">Location</a>
+    <a href="social.html">Social</a>
+  </nav>
+</header>
+
+<!-- PAGE HERO -->
+<div class="page-hero fade-in">
+  <span class="eyebrow">Location / Contact</span>
+  <h1>FIND<br>US.</h1>
+</div>
+
+<!-- MAP + CONTACT INFO -->
+<div class="location-split">
+  <div class="map-area">
+    <!-- To embed Google Maps: replace this div with an <iframe> from maps.google.com → Share → Embed -->
+    Map · 142 Gansevoort St, New York NY
+  </div>
+  <div class="contact-info">
+    <h2>GET HERE.</h2>
+    <div class="contact-row">
+      <span class="contact-row-label">Address</span>
+      <span class="contact-row-value">
+        142 Gansevoort Street<br>
+        Meatpacking District, New York, NY 10014
+      </span>
+    </div>
+    <div class="contact-row">
+      <span class="contact-row-label">Phone</span>
+      <span class="contact-row-value">
+        <a href="tel:+12125550148">(212) 555-0148</a>
+      </span>
+    </div>
+    <div class="contact-row">
+      <span class="contact-row-label">Email</span>
+      <span class="contact-row-value">
+        <a href="mailto:info@ironformgym.com">
+          <!-- Clickable email icon -->
+          ✉️ info@ironformgym.com
+        </a>
+      </span>
+    </div>
+    <div class="contact-row">
+      <span class="contact-row-label">Hours</span>
+      <span class="contact-row-value" style="font-size:.88rem;line-height:2;">
+        Mon – Fri: 5:00 AM – 11:00 PM<br>
+        Saturday: 6:00 AM – 10:00 PM<br>
+        Sunday: 7:00 AM – 8:00 PM
+      </span>
+    </div>
+    <a href="https://maps.google.com" target="_blank" class="btn btn-accent" style="align-self:flex-start;">
+      Open in Maps
+    </a>
+  </div>
+</div>
+
+<!-- HOURS TABLE -->
+<section style="padding:5rem 3rem; border-bottom:1px solid var(--border); display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start;">
+  <div>
+    <span class="eyebrow">Hours of Operation</span>
+    <h2 style="margin-bottom:1.5rem;">WE'RE<br>OPEN.</h2>
+    <p style="color:var(--dim); line-height:1.9; max-width:360px;">Our doors open early and close late so training fits your schedule — not the other way around.</p>
+  </div>
+  <table class="hours-table">
+    <thead>
+      <tr><th>Day</th><th>Open</th><th>Close</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Monday</td><td>5:00 AM</td><td>11:00 PM</td></tr>
+      <tr><td>Tuesday</td><td>5:00 AM</td><td>11:00 PM</td></tr>
+      <tr><td>Wednesday</td><td>5:00 AM</td><td>11:00 PM</td></tr>
+      <tr><td>Thursday</td><td>5:00 AM</td><td>11:00 PM</td></tr>
+      <tr><td>Friday</td><td>5:00 AM</td><td>11:00 PM</td></tr>
+      <tr><td>Saturday</td><td>6:00 AM</td><td>10:00 PM</td></tr>
+      <tr><td>Sunday</td><td>7:00 AM</td><td>8:00 PM</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- CONTACT FORM -->
+<div class="contact-form-section">
+  <div>
+    <span class="eyebrow">Send a Message</span>
+    <h2>LET'S<br>TALK.</h2>
+    <p>Questions about membership, class schedules, personal training, or private events? Fill out the form and we'll get back to you within 24 hours.</p>
+  </div>
+  <div>
+    <div class="form-group">
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" placeholder="Alex Johnson"/>
+    </div>
+    <div class="form-group">
+      <label for="femail">Email Address</label>
+      <input type="email" id="femail" placeholder="alex@example.com"/>
+    </div>
+    <div class="form-group">
+      <label for="fphone">Phone (optional)</label>
+      <input type="tel" id="fphone" placeholder="(212) 555-0000"/>
+    </div>
+    <div class="form-group">
+      <label for="fmsg">Message</label>
+      <textarea id="fmsg" placeholder="Tell us what you're looking for…"></textarea>
+    </div>
+    <button type="button" class="btn btn-accent"
+      onclick="alert('Message sent! We\'ll be in touch within 24 hours.')">
+      Send Message
+    </button>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">IRON<span>FORM</span></div>
+  <p>© 2023 Ironform Gym &nbsp;|&nbsp; <a href="mailto:info@ironformgym.com">info@ironformgym.com</a></p>
+  <div class="social-icons">
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+  </div>
+</footer>
+
+</body>
+</html>
